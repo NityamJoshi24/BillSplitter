@@ -10,7 +10,7 @@ class ResultView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final vm = Provider.of<BillViewModel>(context);
-    final settlement = vm.getSettlements();
+    final settlement = vm.settlements;
 
     return Scaffold(
       appBar: AppBar(title: Text('Settlements'),),

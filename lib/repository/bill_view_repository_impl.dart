@@ -1,4 +1,4 @@
-import 'package:bill_splitter/models/Expense.dart';
+import 'package:bill_splitter/models/expense.dart';
 import 'package:bill_splitter/models/person.dart';
 import 'package:bill_splitter/repository/bill_repository.dart';
 
